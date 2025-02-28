@@ -56,11 +56,3 @@ def is_even_odd_or_neither(func, x_range=(-5, 5), num_points=100):
   else:
     return 'neither'
 
-
-
-# Example usage:
-def my_function(x):
-  return  # Example function (odd)
-
-result = is_even_odd_or_neither(my_function)
-print(f"The function is {result}.")
